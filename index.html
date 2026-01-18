@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> </title>
+  <!-- style css file -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!--  font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- icon  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- tailwind cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+  <title>Tech Wave</title>
 </head>
+
 <body>
-  
+  <header>
+    <nav>
+      <div class="logo">
+        <h1 class=" max-sm:text-3xl text-4xl font-extrabold">Tech<span class="logo-gre">Wave</span></h1>
+      </div>
+      <div class="max-lg:hidden">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Episodes</a></li>
+          <li><a href="">Host</a></li>
+        </ul>
+      </div>
+      <div class="btn-container max-lg:hidden">
+        <button class=" header-btn gred-color ">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class=" menu hidden max-lg:inline">
+        <i class="fa-solid fa-bars text-4xl"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- hero area -->
+  <section id="hero">
+    <div class="hero-container">
+      <div class="hero-img-container ">
+        <div class="hero-img">
+        <div class="hero-circle">
+          <img src="./assets/hero-circle.png" alt="">
+        </div>
+        <div class="hero-microphone">
+          <img src="./assets/microphone.png" alt="">
+        </div>
+        <div class="new">
+          <p>NEW</p>
+        </div>
+      </div>
+      </div>
+      <div class="hero-text">
+        <h2>TechWave</h2>
+        <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+        <div class="hero-btn">
+          <button class="hero-btn-1 gred-color"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+          <button class="hero-btn-2"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
