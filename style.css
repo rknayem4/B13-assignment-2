@@ -16,7 +16,12 @@ nav
   background-image: linear-gradient(45deg, #F7E93F , #FB09B4 , #9100F8);
 }
 
-
+.about-title,
+.about-card
+{
+  max-width: 1200px;
+  margin: auto;
+}
 
 
 /* header style */
@@ -111,4 +116,32 @@ ul {
   padding: 10px 15px;
   border-radius: 20px;
   margin: 20px 10px;
+}
+
+
+
+
+/* about section  */
+#about{
+  background-color:#1A0B2E ;
+  color: #fff;
+}
+
+.about-title p{
+  margin-top:16px ;
+}
+.about-card{
+  display: grid;
+  grid-template-columns: 4;
+}
+.card{
+  padding: 20px;
+}
+.card h3{
+  font-size: 3rem;
+  color: #00ff88;
+  font-weight: bold;
+}
+.card p{
+  text-transform: uppercase;
 }
