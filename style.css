@@ -198,10 +198,10 @@ ul {
 .box .box-img{
   margin: 20px ;
 }
-/* .box h3{
+.box h3{ 
   font-size: 2rem;
   font-weight: bold;
-} */
+}
 
 
 
@@ -338,10 +338,16 @@ gap: 1rem;
   font-size: 1.5rem;
   margin-bottom: .5rem;
   }
+  .choose-title h2{
+    font-size: 1.8rem;
+  }
   .card{
   padding: 10px;
   }
   .card h3{
     font-size: 2.5rem;
   }
+  .box h3{ 
+  font-size: 1.2rem;
+}
 }
