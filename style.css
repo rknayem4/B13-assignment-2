@@ -45,21 +45,29 @@ nav
   transform: scale(1.1);
   transition: 1s;
 }
+.effict:hover{
+  transform: scale(1.06) translateY(-10px);
+  transition: 1s;
+}
+
+
+
+
 @keyframes myany {
   0%{
     transform: scale(1) rotate(0deg) translate(0);
   }
   25%{
-      transform: scale(1.2) rotate(0deg) translateX(-5px);
+      transform: scale(1.2) rotate(30deg) translateX(-10px);
   }
   50%{
-    transform: scale(1.1) rotate(360deg) translateY(-5px);
+    transform: scale(1.1)  translateY(-15px);
   }
   75%{
-    transform: scale(1) rotate(0deg) translate(5px 5px);
+    transform: scale(1)  translate(5px 5px);
   }
   100%{
-    transform: scale(1) rotate(0deg) translate(0);
+    transform: scale(1) translate(0);
   }
 }
 
@@ -155,7 +163,7 @@ h1 span{
   color: #000000;
   border-radius: 30px;
   font-weight: 500;
-  animation: myany 5s ease-in 1s infinite alternate ;
+  animation: myany 4s ease-in 2s infinite alternate ;
 }
 
 
@@ -307,6 +315,10 @@ margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
   border-radius: 20px;
+}
+.host-container:hover{
+  transform: scale(1.1) translateY(10px);
+  transition: 1s;
 }
 .host-img{
   min-width: 200px;
